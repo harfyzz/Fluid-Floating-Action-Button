@@ -64,6 +64,14 @@ struct ContentView: View {
         .padding(.vertical)
         .background(Color("BG"))
         .ignoresSafeArea(.all)
+        /*
+        .onAppear{
+            do {
+                try  fab.setTextRunValue("Stage2Opt1", path: "Stage 2", textValue: "Ok, let me go")
+            } catch {
+                
+            }
+        } */
     }
 }
 
